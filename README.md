@@ -13,7 +13,7 @@ Basically, WordNet reads three consecutive words and predict the fourth word.
 The layout of WordNet is defined as
 
 ![Layout of
-WordNet](https://github.com/gingerbig/wordnet/tree/master/raw-data/layout.png
+WordNet](https://github.com/gingerbig/wordnet/blob/master/pics/layout.png
 "Layout of WordNet")
 
 For more technical details, please read `Slides.pdf`.
