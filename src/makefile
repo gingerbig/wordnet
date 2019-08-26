@@ -22,4 +22,4 @@ forward: wordnet
 .PHONY: clean
 
 clean:
-	rm -rf *.o main wordnet
+	rm -rf *.o main wordnet *.html

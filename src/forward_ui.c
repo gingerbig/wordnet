@@ -117,7 +117,7 @@ void forward_ui(WordNet *model) {
     indices[0] = indices[1];
     indices[1] = indices[2];
 
-    printf("\n|Choose a number> ");
+    printf("\n|Choose a number (default = 1)> ");
     if (!fgets(line, 1024, stdin)) {
       return;
     }

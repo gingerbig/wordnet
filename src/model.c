@@ -128,7 +128,7 @@ void destroyWordNet(WordNet *model) {
  !        n <= model->N
  *        miniBatchSize == model->N,
  *        inputDimension == model->D
- * @return model->outputStateBatch: vocabSize x N
+ * @return model->outputStateBatch: vocabSize x n
  *         outputStateBatch
  *         = softmax(W3 * (sigmoid(W2*layer1StateBatch + bias2)) + bias3)
  */
